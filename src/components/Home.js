@@ -1,20 +1,31 @@
 import React, { Component } from 'react';
 import './Home.css'
-import "../assets/avatar.jpg"
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div>
-          <div className="banner">
+        <div className="banner">
           <div className="banner-content">
-            <div> <img src="../assets/avatar.jpg"/> </div>
             <h1>Razvan Uscatu</h1>
-            <p>Junior Full-Stack Web Developer</p>
-          </div>
+            <p>Junior Front-End Web Developer</p>
           </div>
         </div>
+        <nav class="tabs">
+          <a class="tab" href="#">
+            <h3>Home</h3>
+          </a>
+          <a class="tab" href="#">
+            <h3>About</h3>
+          </a>
+          <a class="tab" href="#">
+            <h3>Portfolio</h3>
+          </a>
+          <a class="tab" href="#">
+            <h3>Contact</h3>
+          </a>
+          <div className="green-line"></div>
+        </nav>
       </div>
     )
   }

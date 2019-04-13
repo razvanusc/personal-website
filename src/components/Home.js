@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
+import About from './About';
 
 class Home extends Component {
   render() {
@@ -26,6 +27,7 @@ class Home extends Component {
           </a>
           <div className="green-line"></div>
         </nav>
+        <About />
       </div>
     )
   }

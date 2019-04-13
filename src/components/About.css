@@ -1,0 +1,42 @@
+.about-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-component img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+
+.about-component p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.skill-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.skill-set ul {
+    list-style-type: none;
+}
+
+.skill-set ul li {
+    margin: 0 0 0 -38px;
+    padding: 0;
+}
+
+.skill-set div {
+    margin-left: 60px;
+}
+
+.skill-set div ul li {
+    margin-bottom: 10px;
+}

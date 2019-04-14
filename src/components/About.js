@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="about-component">
             <h1>ABOUT</h1>
-            <img src={avatar} />
+            <img src={avatar} alt="avatar" />
             <p>
                 A young, passionate and creative Junior Front-End Web Developer who finished the Le Wagon Coding Bootcamp in Amsterdam. I am currenly working for an interesting blockchain platform called Martian Network as a Front-End Web developer, but I am open to learn about new opportunities and to work on any new projects that come along.
             </p>

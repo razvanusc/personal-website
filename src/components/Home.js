@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css'
 import About from './About';
+import Portfolio from './Portofolio';
 
 class Home extends Component {
   render() {
@@ -28,6 +29,7 @@ class Home extends Component {
           <div className="green-line"></div>
         </nav>
         <About />
+        <Portfolio />
       </div>
     )
   }

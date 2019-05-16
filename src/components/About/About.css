@@ -3,18 +3,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .about-component img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    margin-top: 60px;
+}
+
+.about-component .title {
+    margin-bottom: 50px;
 }
 
 .about-component p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .skill-set {
@@ -22,6 +26,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    width: 220%;
 }
 
 .skill-set ul {
@@ -39,4 +44,19 @@
 
 .skill-set div ul li {
     margin-bottom: 10px;
+}
+
+.row-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.profile-pic-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

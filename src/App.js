@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import { BrowserRouter,Route,Switch } from 'react-router-dom';
-import Home from './components/Home'
+import About from './components/About/About';
+import Portfolio from './components/Portofolio/Portofolio';
+import Form from './components/Form/Form';
+import Banner from './components/Banner/Banner';
+import Tabs from './components/Tabs/Tabs';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
-          <Switch>
-            <Route path="/" component={Home} exact/>
-          </Switch>
-        </BrowserRouter>
+        <Banner />
+        <Tabs />
+        <About />
+        <Portfolio />
+        <Form />
       </div>
     )
   }

@@ -1,0 +1,28 @@
+.nav-buttons {
+    background-color: rgb(26, 67, 124) !important;
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px !important;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-buttons a {
+    border: none !important;
+    color: white !important;
+    text-decoration: none !important;
+    padding-left: 0 !important;
+    transition: 200ms;
+}
+
+.nav-buttons a:hover {
+    padding-left: 0 !important;
+    opacity: 0.8;
+    transition: 200ms;
+}

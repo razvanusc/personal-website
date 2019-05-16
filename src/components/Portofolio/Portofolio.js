@@ -2,19 +2,19 @@ import React from 'react';
 import './Portofolio.css';
 
 
-export default function Portofolio() {
+const Portofolio = () => {
     return (
-        <div className="main-portofolio">
+        <div id="portofolio" className="section scrollspy main-portofolio">
             <h1>PORTFOLIO</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-xs-12 col-sm-4">
+                    <div className="col-xs-12 col-sm-4 col-md-offset-1">
                         <div className="card to-do">
                             <div className="card-category">To-do List App</div>
                             <a className="card-link" href="https://github.com/razvanusc/to-do-react" target="_blank" ></a>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-sm-4">
+                    <div className="col-xs-12 col-sm-4 col-md-offset-1">
                         <div className="card brewery">
                             <div className="card-category">Brewery</div>
                             <a className="card-link" href="https://github.com/razvanusc/brewery" target="_blank" ></a>
@@ -43,3 +43,5 @@ export default function Portofolio() {
         </div>
     )
 }
+
+export default Portofolio;

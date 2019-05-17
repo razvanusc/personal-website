@@ -12,9 +12,8 @@ class Tabs extends Component {
     window.addEventListener('scroll', this.handleScroll);
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.scrollspy');
-      M.ScrollSpy.init(elems, { scrollOffset: 0 });
+      M.ScrollSpy.init(elems, { scrollOffset: 70 });
     });
-
   }
 
   componentWillUnmount() {
@@ -23,7 +22,7 @@ class Tabs extends Component {
 
   render() {
     return (
-      <div class="nav-buttons section table-of-contents">
+      <div className="nav-buttons section table-of-contents">
         <div><a onClick={window.scrollTo(0, 0)} href="#banner">Home</a></div>
         <div><a href="#about">About</a></div>
         <div><a href="#portofolio">Portfolio</a></div>

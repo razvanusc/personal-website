@@ -1,0 +1,56 @@
+.footer {
+    background-color: rgb(26, 67, 124) !important;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left .rights {
+    margin: 0 30px;
+}
+
+.footer-left .source {
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.footer-left .source:hover {
+    opacity: 0.8;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right .linkedin {
+    margin: 0 30px;
+}
+
+.footer-right i {
+    color: white;
+    transition: 200ms;
+}
+
+.footer-right i:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 200ms;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-left .source {
+        display: none;
+    }
+}

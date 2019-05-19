@@ -14,7 +14,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="skill-set">
-                    <div>
+                    <div className="front-end">
                         <h4>Front-End</h4>
                         <ul>
                             <li>HTML5</li>
@@ -24,7 +24,7 @@ const About = () => {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="back-end">
                         <h4>Back-End</h4>
                         <ul>
                             <li>Ruby</li>
@@ -32,7 +32,7 @@ const About = () => {
                             <li>Node.js</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="tool">
                         <h4>Tools</h4>
                         <ul>
                             <li>Github</li>

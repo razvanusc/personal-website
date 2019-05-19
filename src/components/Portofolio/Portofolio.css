@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(201, 201, 201);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .carousel.carousel-slider {

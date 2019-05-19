@@ -1,22 +1,27 @@
 import React from 'react';
+import './Form.css';
+import 'materialize-css/dist/css/materialize.min.css';
 
 const About = () => {
     return (
-        <div id="form" className="section scrollspy">
+        <div id="form" className="section scrollspy form">
             <h1>Contact</h1>
-            <form name="contact" method="POST" data-netlify="true">
-                <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
-                </p>
-                <p>
-                    <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p>
+            <form className="contact-form" name="contact" method="POST" data-netlify="true">
+                <div className="input-field">
+                    <input type="text" name="name" />
+                    <label>Name</label>
+                </div>
+                <div className="input-field">
+                    <input type="email" name="email" />
+                    <label>Email</label>
+                </div>
+                <div className="text-area">
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div className="contact-btn">
                     <button type="submit">Send</button>
-                </p>
+                </div>
             </form>
         </div>
     )

@@ -10,8 +10,8 @@ const About = () => {
                 <div className="profile-pic-text">
                     <img src={avatar} alt="avatar" />
                     <p>
-                        A young, passionate and creative Junior Front-End Web Developer who finished the Le Wagon Coding Bootcamp in Amsterdam. I am currenly working for an interesting blockchain platform called Martian Network as a Front-End Web developer, but I am open to learn about new opportunities and to work on any new projects that come along.
-                </p>
+                        A young, creative Front-end Web Developer who is passionate about coding and building websites, as well as one who strives to gain more knowledge, and excel in their job. Once finished with the Le Wagon Coding Bootcamp in Amsterdam, began to experiment with Front-End Web Development and enjoyed learning more about JavaScript and React.
+                    </p>
                 </div>
                 <div className="skill-set">
                     <div>

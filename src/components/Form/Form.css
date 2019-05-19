@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.form h1 {
+    font-size: 50px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,8 @@
 }
 
 .contact-btn button:hover {
-    opacity: 0.7;
+    color: white;
+    background-color: rgb(26, 67, 124);
     transition: 200ms;
     cursor: pointer;
 }
@@ -38,6 +43,10 @@
 .text-area textarea {
     width: 300px;
     height: 150px;
+}
+
+.text-area textarea {
+    outline: none;
 }
 
 .input-field {

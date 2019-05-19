@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
-import avatar from '../../assets/avatar.jpg';
+import avatar from '../../assets/img/avatar.jpg';
 
 const About = () => {
     return (
         <div id="about" className="section scrollspy about-component">
-            <h1 className="title">ABOUT</h1>
+            <h1 className="title">ABOUT ME</h1>
             <div className="row-about">
                 <div className="profile-pic-text">
                     <img src={avatar} alt="avatar" />

@@ -8,7 +8,7 @@
 .banner-content {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -24,7 +24,62 @@
   align-self: center;
 }
 
+.banner-content a {
+  margin-top: 20px;
+  border: 2px solid white;
+  color: white;
+  width: 175px;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.banner-content a:hover {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: rgb(26, 67, 124);
+  transition: 200ms;
+}
+
 canvas {
   height: 100vh !important;
   margin-bottom: -5px !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  canvas {
+    margin-bottom: -6px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  canvas {
+    display: none;
+  }
+
+  .banner {
+    position: none;
+  }
+
+  .mobile-banner {
+    height: 100vh !important;
+    background-color: rgb(26, 67, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-content h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .banner-content p {
+    font-size: 20px;
+    text-align: center;
+  }
 }

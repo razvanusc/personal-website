@@ -7,13 +7,13 @@ class Portofolio extends Component {
     state = {
         projects: [
             {
-                id: 0, name: "Diabetes Logs (Latest project)", about: "A tool created for people with diabetes, allowing them to keep track of their blood sugar levels, as well as the medication they take. It uses Firestore to store data on the backend and Firebase authentication to authenticate users. Users are able to create entries which include their blood sugar levels, the time of the day (e.g. Before Breakfast), the time the entry was created (which by default is their current time), as well as to choose up to three types of medication for their entry. Users can see all their entries on the dashboard where their entries are sorted by date, and can even edit an entry if they wish.",
+                id: 0, name: "Diabetes Logs (Latest project)", about: "A tool created for people with diabetes, allowing them to keep track of their blood sugar levels, as well as the medication they have taken. The application utilises Firestore to store data on the backend and Firebase authentication to authenticate users. Users are able to create entries which include their blood sugar levels, the time of the day (e.g. Before Breakfast), the time the entry was created (which by default is their current time), and to choose up to three types of medication for their entry. Users can see all their entries on the dashboard where their entries are sorted by date, and they can even edit an entry if they wish to.",
                 images: [require('../../assets/img/diabeteslogs1.png'), require('../../assets/img/diabeteslogs2.png'),
                 require('../../assets/img/diabeteslogs3.png')], technologies: "HTML, CSS, Javascript, React, Redux, Firebase",
                 githubUrl: "https://github.com/razvanusc/diabetes-logger", hostingUrl: "https://www.diabeteslogs.com/"
             },
             {
-                id: 1, name: "Project Manager Tool", about: "The project was my first experience using Node.js and the Express.js framework. It includes multiple REST API routes accessible for normal users and admins using authentication and authorization through JWT. The tool was built to allow admins to see all the user accounts and create projects, and normal users to see their own profiles and all the created projects, and it stores the data in a Sequelize database.",
+                id: 1, name: "Project Manager Tool", about: "This project was my first experience using Node.js and the Express.js framework. It includes multiple REST API routes accessible for regular users and admins using authentication and authorization through JWT. The tool was built to allow admins to see all the user accounts, as well as create projects. Moreover, regular users can see their own profiles and all  projects that have been created. Furthermore, the application stores all the data in a Sequelize database.",
                 technologies: "Javascript, Node.js, Express.js",
                 githubUrl: "https://github.com/razvanusc/project-manager-tool"
             },
@@ -24,13 +24,13 @@ class Portofolio extends Component {
                 githubUrl: "https://github.com/razvanusc/brewery"
             },
             {
-                id: 3, name: "SubMaster", about: "As a final project at Le Wagon we had to build an application called ”SubMaster” where yoga teachers could find the perfect substitute for their class in case they weren’t available. My experience with this application was mostly back-end oriented, as I worked on and built all of the back-end of the product, with Ruby and Ruby on Rails.",
+                id: 3, name: "SubMaster", about: "As a final project at Le Wagon my team and I decided to build an application for yoga teachers to help them find substitutes for their classes. The app was called ”SubMaster” and allowed the teachers to browse through substitutes and find the ideal match for when they were not available. My experience with this application was mostly back-end oriented, as I worked on and built all of the back-end of the product, using Ruby and Ruby on Rails.",
                 images: [require('../../assets/img/submaster1.png'), require('../../assets/img/submaster2.png'),
                 require('../../assets/img/submaster3.png')], technologies: "Ruby, Ruby on Rails, HTML, CSS",
                 githubUrl: "https://github.com/razvanusc/SubMaster", hostingUrl: "http://www.submaster.club/"
             },
             {
-                id: 4, name: "B2Boats", about: "Before starting the final project at the Le Wagon coding bootcamp, we were asked to build an AirBnB clone. My group came up with the idea of a website where people can rent a boat. During the course of the project I built most of the back-end of the application, by working with Ruby and Ruby on Rails.",
+                id: 4, name: "B2Boats", about: "As a precursor to the final project at Le Wagon, my team and I were tasked with building an AirBnB clone. We came up with the idea of a boat rental website. During the course of the project I built most of the back-end of the application, by working with Ruby and Ruby on Rails.",
                 images: [require('../../assets/img/b2boats1.png'), require('../../assets/img/b2boats2.png'),
                 require('../../assets/img/b2boats3.png')], technologies: "Ruby, Ruby on Rails, HTML, CSS",
                 githubUrl: "https://github.com/razvanusc/b2boats", hostingUrl: "https://b2boats-clone.herokuapp.com/"

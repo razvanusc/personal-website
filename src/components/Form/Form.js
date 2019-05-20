@@ -2,10 +2,12 @@ import React from 'react';
 import './Form.css';
 import 'materialize-css/dist/css/materialize.min.css';
 
+
 const About = () => {
     return (
         <div id="form" className="section scrollspy form">
             <h1>Contact</h1>
+            <div className="email">You can contact me at <a href="mailto:razvanusc@gmail.com">razvanusc@gmail.com</a> or fill in the following form:</div>
             <form className="contact-form" name="contact" method="POST" data-netlify="true">
                 <div className="input-field">
                     <input type="text" name="name" />

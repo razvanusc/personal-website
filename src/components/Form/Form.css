@@ -35,6 +35,10 @@
     cursor: pointer;
 }
 
+.email {
+    width: 20%
+}
+
 .text-area {
     display: flex;
     flex-direction: column;

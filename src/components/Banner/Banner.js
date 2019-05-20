@@ -16,8 +16,8 @@ class Banner extends Component {
 
     render() {
         return (
-            <div>
-                <div id="banner" className="section scrollspy banner">
+            <div id="banner" className=" section scrollspy banner-container">
+                <div className="banner">
                     <div className="banner-content">
                         <h1>Razvan Uscatu</h1>
                         <p>Front-End Web Developer</p>

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Portofolio.css';
 import { Carousel } from 'react-responsive-carousel';
-import InlineSVG from 'svg-inline-react';
-
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Portofolio extends Component {

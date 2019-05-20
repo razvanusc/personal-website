@@ -22,7 +22,7 @@ class Banner extends Component {
                         <h1>Razvan Uscatu</h1>
                         <p>Front-End Web Developer</p>
                         <a href="#portofolio">View my work</a>
-                        <a href={Cv} target="_blank">View my CV</a>
+                        <a href={Cv} target="_blank" rel="noopener noreferrer">View my CV</a>
                     </div>
                 </div>
                 <div className="mobile-banner"></div>

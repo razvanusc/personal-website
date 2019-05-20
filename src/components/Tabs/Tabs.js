@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Tabs.css';
 import M from 'materialize-css';
 import 'materialize-css/dist/css/materialize.min.css';
-import $ from 'jquery';
 
 class Tabs extends Component {
   state = {

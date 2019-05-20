@@ -9,12 +9,12 @@ class Portofolio extends Component {
             {
                 id: 0, name: "Diabetes Logs (Latest project)", about: "A tool created for people with diabetes, allowing them to keep track of their blood sugar levels, as well as the medication they take. It uses Firestore to store data on the backend and Firebase authentication to authenticate users. Users are able to create entries which include their blood sugar levels, the time of the day (e.g. Before Breakfast), the time the entry was created (which by default is their current time), as well as to choose up to three types of medication for their entry. Users can see all their entries on the dashboard where their entries are sorted by date, and can even edit an entry if they wish.",
                 images: [require('../../assets/img/diabeteslogs1.png'), require('../../assets/img/diabeteslogs2.png'),
-                require('../../assets/img/diabeteslogs3.png')], technologies: "Javascript, Node.js, Express.js",
+                require('../../assets/img/diabeteslogs3.png')], technologies: "HTML, CSS, Javascript, React, Redux, Firebase",
                 githubUrl: "https://github.com/razvanusc/diabetes-logger", hostingUrl: "https://www.diabeteslogs.com/"
             },
             {
                 id: 1, name: "Project Manager Tool", about: "The project was my first experience using Node.js and the Express.js framework. It includes multiple REST API routes accessible for normal users and admins using authentication and authorization through JWT. The tool was built to allow admins to see all the user accounts and create projects, and normal users to see their own profiles and all the created projects, and it stores the data in a Sequelize database.",
-                technologies: "HTML, CSS, Javascript, React, Redux, Firebase",
+                technologies: "Javascript, Node.js, Express.js",
                 githubUrl: "https://github.com/razvanusc/project-manager-tool"
             },
             {

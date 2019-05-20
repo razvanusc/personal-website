@@ -3,9 +3,16 @@ import './About.css';
 import avatar from '../../assets/img/avatar.jpg';
 
 const About = () => {
+    const Icon = () => (
+        <svg height="100" width="45">
+            <line x1="" y1="0" x2="70" y2="0" className="inline-svg" />
+        </svg>
+    );
+
     return (
         <div id="about" className="section scrollspy about-component">
-            <h1 className="title">ABOUT ME</h1>
+            <h1 className="title">ABOUT</h1>
+            <div className="svg"><Icon /></div>
             <div className="row-about">
                 <div className="profile-pic-text">
                     <img src={avatar} alt="avatar" />

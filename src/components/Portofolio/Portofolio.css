@@ -7,8 +7,10 @@
 }
 
 .main-portofolio h1 {
-    margin-bottom: 50px;
-    font-size: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #45474A;
+    font-weight: bold;
 }
 
 .portofolio-projects {
@@ -74,6 +76,15 @@
     margin-top: 10px;
 }
 
+.portofolio .svg {
+    margin-top: -40px;
+}
+
+.inline-svg {
+    stroke: #45474A;
+    stroke-width: 8;
+}
+
 @media only screen and (max-width: 1400px) {
     .img-replacement {
         height: 20rem;
@@ -130,6 +141,7 @@
     .portofolio-projects {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin: 30px 0 0 0;
     }
     .project-details {

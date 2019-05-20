@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Portofolio.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import InlineSVG from 'svg-inline-react';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Portofolio extends Component {
     state = {
@@ -31,7 +33,7 @@ class Portofolio extends Component {
             },
             {
                 id: 4, name: "B2Boats", about: "Before starting the final project at the Le Wagon coding bootcamp, we were asked to build an AirBnB clone. My group came up with the idea of a website where people can rent a boat. During the course of the project I built most of the back-end of the application, by working with ruby and ruby on rails.",
-                 images: [require('../../assets/img/b2boats1.png'), require('../../assets/img/b2boats2.png'),
+                images: [require('../../assets/img/b2boats1.png'), require('../../assets/img/b2boats2.png'),
                 require('../../assets/img/b2boats3.png')], technologies: "Ruby, Ruby on Rails, HTML, CSS",
                 githubUrl: "https://github.com/razvanusc/b2boats", hostingUrl: "https://b2boats-clone.herokuapp.com/"
             },
@@ -45,10 +47,16 @@ class Portofolio extends Component {
 
     render() {
         const { projects } = this.state
+        const Icon = () => (
+            <svg height="100" width="45">
+                <line x1="" y1="0" x2="70" y2="0" className="inline-svg" />
+            </svg>
+        );
 
         return (
             <div id="portofolio" className="section scrollspy main-portofolio">
                 <h1>PORTFOLIO</h1>
+                <div className="svg"><Icon /></div>
                 <div className="container">
                     {projects.map((project) => {
                         return (
@@ -59,13 +67,13 @@ class Portofolio extends Component {
                                             <img src={image} alt="first-slide" />
                                         </div>
                                     )}
-                                </Carousel></div> : <div className='img-replacement'>No images to show :)</div> }
+                                </Carousel></div> : <div className='img-replacement'>No images to show :)</div>}
                                 <div className="project-details">
                                     <h4>{project.name}</h4>
                                     <div>{project.about}</div>
-                                    <br/>
+                                    <br />
                                     <div>Technologies used: {project.technologies}</div>
-                                    <br/>
+                                    <br />
                                     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">View Source Code</a>
                                     {project.hostingUrl ? <a className="check-it-btn" href={project.hostingUrl} target="_blank" rel="noopener noreferrer">Try It Out</a> : null}
                                 </div>

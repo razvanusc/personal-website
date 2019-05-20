@@ -30,10 +30,16 @@ class About extends Component {
 
     render() {
         const { name, email, message } = this.state
+        const Icon = () => (
+            <svg height="100" width="45">
+                <line x1="" y1="0" x2="70" y2="0" className="inline-svg" />
+            </svg>
+        );
 
         return (
             <div id="form" className="section scrollspy form">
-                <h1>Contact</h1>
+                <h1>CONTACT</h1>
+                <div className="svg"><Icon /></div>
                 <div className="email">You can reach me at <a href="mailto:razvanusc@gmail.com">razvanusc@gmail.com</a> or fill in the following form:</div>
                 <form className="contact-form" onSubmit={this.handleSubmit}>
                     <div className="input-field">

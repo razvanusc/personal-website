@@ -6,7 +6,9 @@
 }
 
 .form h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #45474A;
 }
 
 .contact-form {
@@ -36,7 +38,8 @@
 }
 
 .email {
-    width: 20%;
+    width: 18%;
+    margin-bottom: 20px;
 }
 
 .text-area {
@@ -68,6 +71,21 @@
 .input-field input:focus, .input-field input:active, .input-field input.valid {
     border-bottom: 1px solid rgb(26, 67, 124) !important;
     box-shadow: 0 1px 0 0 rgb(26, 67, 124) !important;
+}
+
+.email a {
+    color: rgb(26, 67, 124);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.email a:hover {
+    opacity: 0.6;
+    transition: 200ms;
+}
+
+.form .svg {
+    margin-top: -18px;
 }
 
 @media only screen and (max-width: 768px) {

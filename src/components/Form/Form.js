@@ -11,7 +11,11 @@ const encode = (data) => {
 class About extends Component {
     constructor(props) {
         super(props);
-        this.state = { name: "", email: "", message: "" };
+        this.state = { 
+            name: "", 
+            email: "", 
+            message: "" 
+        };
     }
 
     handleSubmit = e => {

@@ -13,7 +13,7 @@ const About = () => {
         <div id="about" className="section scrollspy about-component">
             <h1 className="title">ABOUT</h1>
             <div className="svg"><Icon /></div>
-            <div className="row-about">
+            <div className="about-info">
                 <div className="profile-pic-text">
                     <img src={avatar} alt="avatar" />
                     <p>
@@ -39,7 +39,7 @@ const About = () => {
                             <li>Node.js</li>
                         </ul>
                     </div>
-                    <div className="tool">
+                    <div className="tools">
                         <h4>Tools</h4>
                         <ul>
                             <li>Github</li>

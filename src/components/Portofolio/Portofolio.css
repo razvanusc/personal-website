@@ -13,6 +13,15 @@
     font-weight: bold;
 }
 
+.portofolio .svg {
+    margin-top: -40px;
+}
+
+.inline-svg {
+    stroke: #45474A;
+    stroke-width: 8;
+}
+
 .portofolio-projects {
     margin-top: 30px;
     padding-bottom: 30px;
@@ -35,6 +44,16 @@
     margin-left: -5px;
 }
 
+.carousel.carousel-slider {
+    min-width: 100%;
+    height: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.slider-container {
+    width: 55%;
+}
+
 .img-replacement {
     width: 55%;
     height: 23rem;
@@ -45,14 +64,8 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.carousel.carousel-slider {
-    min-width: 100%;
-    height: 50%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.slider-container {
-    width: 55%;
+.project-details .technologies {
+    font-weight: bold;
 }
 
 .project-details a {
@@ -74,15 +87,6 @@
 
 .check-it-btn {
     margin-top: 10px;
-}
-
-.portofolio .svg {
-    margin-top: -40px;
-}
-
-.inline-svg {
-    stroke: #45474A;
-    stroke-width: 8;
 }
 
 @media only screen and (max-width: 1400px) {

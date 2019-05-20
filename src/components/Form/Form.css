@@ -11,11 +11,29 @@
     color: #45474A;
 }
 
+.form .svg {
+    margin-top: -18px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.input-field {
+    align-self: center;
+    width: 100% !important;
+}
+
+.input-field input:focus+label {
+    color: rgb(26, 67, 124) !important;
+}
+
+.input-field input:focus, .input-field input:active, .input-field input.valid {
+    border-bottom: 1px solid rgb(26, 67, 124) !important;
+    box-shadow: 0 1px 0 0 rgb(26, 67, 124) !important;
 }
 
 .contact-btn button {
@@ -42,6 +60,17 @@
     margin-bottom: 20px;
 }
 
+.email a {
+    color: rgb(26, 67, 124);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.email a:hover {
+    opacity: 0.6;
+    transition: 200ms;
+}
+
 .text-area {
     display: flex;
     flex-direction: column;
@@ -56,39 +85,13 @@
     outline: none;
 }
 
-.input-field {
-    align-self: center;
+@media only screen and (max-width: 1000px) {
+    .email {
+        width: 40%;
+    }
 }
 
-.input-field {
-    width: 100% !important;
-}
-
-.input-field input:focus+label {
-    color: rgb(26, 67, 124) !important;
-}
-
-.input-field input:focus, .input-field input:active, .input-field input.valid {
-    border-bottom: 1px solid rgb(26, 67, 124) !important;
-    box-shadow: 0 1px 0 0 rgb(26, 67, 124) !important;
-}
-
-.email a {
-    color: rgb(26, 67, 124);
-    text-decoration: none;
-    transition: 200ms;
-}
-
-.email a:hover {
-    opacity: 0.6;
-    transition: 200ms;
-}
-
-.form .svg {
-    margin-top: -18px;
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .email {
         width: 90%;
     }

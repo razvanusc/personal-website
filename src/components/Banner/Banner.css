@@ -1,12 +1,12 @@
+#banner.section.scrollspy.banner-container {
+  padding: 0;
+}
+
 .banner {
   position: absolute;
   left: 50%;
   top: 50%; 
   transform: translateY(-65%) translateX(-55%);
-}
-
-#banner.section.scrollspy.banner-container {
-  padding: 0;
 }
 
 .banner-content {
@@ -16,13 +16,13 @@
   justify-content: center;
 }
 
-.banner h1 {
+.banner-content h1 {
   font-size: 50px;
   font-weight: bold;
   color: white;
 }
 
-.banner p {
+.banner-content p {
   font-size: 25px;
   color: rgb(255, 255, 255);
   align-self: center;
@@ -55,12 +55,18 @@ canvas {
 
 
 @media only screen and (max-width: 768px) {
-  canvas {
-    display: none;
-  }
-
   .banner-content {
     margin-left: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .banner-content p {
+    font-size: 20px;
+    text-align: center;
   }
 
   .mobile-banner {
@@ -72,13 +78,7 @@ canvas {
     align-items: center;
   }
 
-  .banner-content h1 {
-    font-size: 50px;
-    text-align: center;
-  }
-
-  .banner-content p {
-    font-size: 20px;
-    text-align: center;
+  canvas {
+    display: none;
   }
 }
